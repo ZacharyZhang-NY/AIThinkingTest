@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "theta_range_deg": [
+    5,
+    60
+  ],
+  "max_err_small": 0.8878419742231025,
+  "max_err_series": 0.8796718186135671,
+  "largest_error_at_deg": 60
+}
