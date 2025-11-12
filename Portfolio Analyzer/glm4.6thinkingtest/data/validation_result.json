@@ -1,0 +1,9 @@
+{
+  "valid": true,
+  "warnings": [
+    "Portfolio weights sum to 1.0000"
+  ],
+  "errors": [],
+  "total_weight": 1.0,
+  "weight_diff": 0.0
+}

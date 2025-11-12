@@ -1,0 +1,189 @@
+{
+  "fetched_at": "2025-11-11T22:50:00.000Z",
+  "fetched_at_ny": "2025-11-11T17:50:00 EST",
+  "risk_free_rate": 0.0435,
+  "risk_free_rate_source": "3M T-Bill (estimated current market rate)",
+  "assets": {
+    "AAPL": {
+      "type": "equity",
+      "price": 275.25,
+      "change_pct": 0.0216,
+      "market_cap_b": 4265.0,
+      "dividend_yield": 0.0042,
+      "pe_ratio": 38.5,
+      "beta": 1.25,
+      "52w_range": [164.08, 280.50],
+      "sector": "Technology",
+      "industry": "Consumer Electronics"
+    },
+    "NVDA": {
+      "type": "equity",
+      "price": 193.16,
+      "change_pct": -0.0296,
+      "market_cap_b": 4703.0,
+      "dividend_yield": 0.0002,
+      "pe_ratio": 55.19,
+      "beta": 2.27,
+      "52w_range": [86.62, 212.19],
+      "sector": "Technology",
+      "industry": "Semiconductors"
+    },
+    "MSFT": {
+      "type": "equity",
+      "price": 415.50,
+      "change_pct": 0.0085,
+      "market_cap_b": 3088.0,
+      "dividend_yield": 0.0075,
+      "pe_ratio": 35.8,
+      "beta": 1.15,
+      "52w_range": [362.00, 450.00],
+      "sector": "Technology",
+      "industry": "Software"
+    },
+    "AMZN": {
+      "type": "equity",
+      "price": 249.10,
+      "change_pct": 0.0028,
+      "market_cap_b": 2590.0,
+      "dividend_yield": 0.0000,
+      "pe_ratio": 42.3,
+      "beta": 1.35,
+      "52w_range": [144.05, 252.00],
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail"
+    },
+    "SOXX": {
+      "type": "etf",
+      "price": 205.45,
+      "change_pct": -0.0185,
+      "aum_b": 13.2,
+      "dividend_yield": 0.0088,
+      "expense_ratio": 0.0035,
+      "holdings_count": 30,
+      "top_holdings": [
+        {"ticker": "NVDA", "weight": 0.098, "name": "NVIDIA Corporation"},
+        {"ticker": "AVGO", "weight": 0.087, "name": "Broadcom Inc."},
+        {"ticker": "TSM", "weight": 0.085, "name": "Taiwan Semiconductor"},
+        {"ticker": "AMD", "weight": 0.065, "name": "Advanced Micro Devices"},
+        {"ticker": "ASML", "weight": 0.059, "name": "ASML Holding"},
+        {"ticker": "QCOM", "weight": 0.053, "name": "Qualcomm Inc."},
+        {"ticker": "INTC", "weight": 0.048, "name": "Intel Corporation"},
+        {"ticker": "MU", "weight": 0.046, "name": "Micron Technology"},
+        {"ticker": "MRVL", "weight": 0.038, "name": "Marvell Technology"},
+        {"ticker": "LRCX", "weight": 0.036, "name": "Lam Research"}
+      ],
+      "sector_exposure": {
+        "Semiconductors": 1.00
+      }
+    },
+    "JEPI": {
+      "type": "etf",
+      "price": 58.12,
+      "change_pct": 0.0042,
+      "aum_b": 38.5,
+      "dividend_yield": 0.0725,
+      "distribution_ttm": 4.21,
+      "expense_ratio": 0.0035,
+      "holdings_count": 125,
+      "top_holdings": [
+        {"ticker": "MSFT", "weight": 0.045, "name": "Microsoft Corporation"},
+        {"ticker": "NVDA", "weight": 0.042, "name": "NVIDIA Corporation"},
+        {"ticker": "AAPL", "weight": 0.038, "name": "Apple Inc."},
+        {"ticker": "META", "weight": 0.035, "name": "Meta Platforms"},
+        {"ticker": "GOOGL", "weight": 0.033, "name": "Alphabet Inc."},
+        {"ticker": "UNH", "weight": 0.032, "name": "UnitedHealth Group"},
+        {"ticker": "JPM", "weight": 0.030, "name": "JPMorgan Chase"},
+        {"ticker": "V", "weight": 0.028, "name": "Visa Inc."},
+        {"ticker": "AVGO", "weight": 0.026, "name": "Broadcom Inc."},
+        {"ticker": "LLY", "weight": 0.025, "name": "Eli Lilly"}
+      ],
+      "sector_exposure": {
+        "Technology": 0.38,
+        "Healthcare": 0.18,
+        "Financials": 0.15,
+        "Consumer Cyclical": 0.12,
+        "Industrials": 0.09,
+        "Communications": 0.08
+      },
+      "description": "Equity Premium Income ETF using covered calls"
+    },
+    "JEPQ": {
+      "type": "etf",
+      "price": 56.85,
+      "change_pct": 0.0035,
+      "aum_b": 18.2,
+      "dividend_yield": 0.0892,
+      "distribution_ttm": 5.07,
+      "expense_ratio": 0.0035,
+      "holdings_count": 105,
+      "top_holdings": [
+        {"ticker": "NVDA", "weight": 0.068, "name": "NVIDIA Corporation"},
+        {"ticker": "AAPL", "weight": 0.062, "name": "Apple Inc."},
+        {"ticker": "MSFT", "weight": 0.058, "name": "Microsoft Corporation"},
+        {"ticker": "AVGO", "weight": 0.055, "name": "Broadcom Inc."},
+        {"ticker": "AMZN", "weight": 0.052, "name": "Amazon.com Inc."},
+        {"ticker": "META", "weight": 0.048, "name": "Meta Platforms"},
+        {"ticker": "GOOGL", "weight": 0.045, "name": "Alphabet Inc."},
+        {"ticker": "TSLA", "weight": 0.038, "name": "Tesla Inc."},
+        {"ticker": "AMD", "weight": 0.035, "name": "Advanced Micro Devices"},
+        {"ticker": "NFLX", "weight": 0.032, "name": "Netflix Inc."}
+      ],
+      "sector_exposure": {
+        "Technology": 0.72,
+        "Consumer Cyclical": 0.15,
+        "Communications": 0.08,
+        "Healthcare": 0.05
+      },
+      "description": "Nasdaq Premium Income ETF using covered calls on QQQ"
+    },
+    "SGOV": {
+      "type": "etf",
+      "price": 100.25,
+      "change_pct": 0.0001,
+      "aum_b": 45.8,
+      "dividend_yield": 0.0420,
+      "distribution_ttm": 4.21,
+      "expense_ratio": 0.0009,
+      "holdings_count": 15,
+      "duration": 0.08,
+      "sector_exposure": {
+        "US Treasury": 1.00
+      },
+      "description": "0-3 Month US Treasury Bills ETF"
+    }
+  },
+  "news": [
+    {
+      "ticker": "AAPL",
+      "title": "Apple shares rally on AI momentum and strong iPhone demand",
+      "source": "Yahoo Finance",
+      "time": "2h ago",
+      "url": "https://finance.yahoo.com/news/apple-ai-momentum-strong-iphone-201500123.html"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Nvidia stock falls on Softbank sale, CoreWeave gives weak outlook",
+      "source": "Yahoo Finance",
+      "time": "8h ago",
+      "url": "https://finance.yahoo.com/video/nvidia-stock-falls-softbank-sale-144427500.html"
+    },
+    {
+      "ticker": "JEPI",
+      "title": "Income investors flock to covered call ETFs amid volatility",
+      "source": "Morningstar",
+      "time": "1d ago",
+      "url": "https://morningstar.com/etfs/income-covered-call-etfs-2025"
+    }
+  ],
+  "data_quality": {
+    "AAPL": "fresh",
+    "NVDA": "fresh",
+    "MSFT": "estimated",
+    "AMZN": "estimated",
+    "SOXX": "estimated",
+    "JEPI": "estimated",
+    "JEPQ": "estimated",
+    "SGOV": "estimated"
+  },
+  "disclaimer": "Market data aggregated from public sources including Yahoo Finance. Prices and data may be delayed or contain errors. This information is for research purposes only and does not constitute investment advice."
+}

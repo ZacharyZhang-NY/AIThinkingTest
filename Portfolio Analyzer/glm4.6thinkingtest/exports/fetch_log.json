@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2025-11-11T23:40:21.489258+00:00",
+    "ticker": "AAPL",
+    "source": "Yahoo Finance API",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL",
+    "status": "success",
+    "data_size": 362
+  },
+  {
+    "timestamp": "2025-11-11T23:40:21.653978+00:00",
+    "ticker": "NVDA",
+    "source": "Yahoo Finance API",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA",
+    "status": "success",
+    "data_size": 362
+  },
+  {
+    "timestamp": "2025-11-11T23:40:21.839902+00:00",
+    "ticker": "MSFT",
+    "source": "Yahoo Finance API",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT",
+    "status": "success",
+    "data_size": 362
+  },
+  {
+    "timestamp": "2025-11-11T23:40:22.001786+00:00",
+    "ticker": "AMZN",
+    "source": "Yahoo Finance API",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN",
+    "status": "success",
+    "data_size": 360
+  },
+  {
+    "timestamp": "2025-11-11T23:40:22.168992+00:00",
+    "ticker": "SOXX",
+    "source": "Yahoo Finance API",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX",
+    "status": "success",
+    "data_size": 361
+  },
+  {
+    "timestamp": "2025-11-11T23:40:22.339503+00:00",
+    "ticker": "JEPI",
+    "source": "Yahoo Finance API",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JEPI",
+    "status": "success",
+    "data_size": 358
+  },
+  {
+    "timestamp": "2025-11-11T23:40:22.486547+00:00",
+    "ticker": "JEPQ",
+    "source": "Yahoo Finance API",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JEPQ",
+    "status": "success",
+    "data_size": 359
+  },
+  {
+    "timestamp": "2025-11-11T23:40:22.648775+00:00",
+    "ticker": "SGOV",
+    "source": "Yahoo Finance API",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SGOV",
+    "status": "success",
+    "data_size": 361
+  }
+]

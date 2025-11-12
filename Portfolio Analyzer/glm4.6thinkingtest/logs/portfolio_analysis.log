@@ -1,0 +1,11 @@
+2025-11-11 18:36:40,070 - INFO - Starting portfolio validation
+2025-11-11 18:36:40,070 - INFO - Portfolio validation completed: PASSED
+2025-11-11 18:36:40,070 - INFO - Portfolio validation passed. Proceeding to data fetching.
+2025-11-11 18:41:30,416 - INFO - Starting complete portfolio analysis
+2025-11-11 18:41:30,417 - INFO - Loading and validating portfolio data
+2025-11-11 18:41:30,417 - INFO - Data validation completed: 100.0% quality
+2025-11-11 18:41:30,417 - INFO - Calculating portfolio metrics
+2025-11-11 18:41:30,417 - INFO - Portfolio metrics calculated: Expected Return=17.69%, Volatility=20.86%, Sharpe=0.63
+2025-11-11 18:41:30,417 - INFO - Running Sequential Thinking analysis
+2025-11-11 18:41:30,417 - INFO - Generating optimization proposals
+2025-11-11 18:41:30,418 - INFO - Complete portfolio analysis finished

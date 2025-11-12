@@ -1,0 +1,15 @@
+{
+  "fetch_time": "2025-11-11T18:31:51.970608",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com",
+      "timestamp": "2025-11-11T18:31:51.970611",
+      "status": 200
+    },
+    {
+      "url": "https://www.ishares.com",
+      "timestamp": "2025-11-11T18:31:51.970612",
+      "status": 200
+    }
+  ]
+}

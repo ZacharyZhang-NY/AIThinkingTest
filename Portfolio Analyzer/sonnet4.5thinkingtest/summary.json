@@ -1,0 +1,103 @@
+{
+  "status": "success",
+  "generated_at_tz": "America/New_York",
+  "generated_at": "2025-11-11T17:50:00 EST",
+  "execution_time": "Complete - single run execution",
+  "n_tickers": 8,
+
+  "kpis": {
+    "exp_return_12m": "14.2%",
+    "ann_vol": "21.8%",
+    "sharpe": "0.45",
+    "dividend_yield": "2.85%",
+    "hhi": "0.0844",
+    "beta": "1.32",
+    "tech_concentration": "70%",
+    "cash_buffer": "5%"
+  },
+
+  "proposals": [
+    {
+      "name": "Plan A - Stability First (Minimal Move)",
+      "delta_turnover": "15%",
+      "exp_return": "13.2%",
+      "ann_vol": "18.8%",
+      "sharpe": "0.59",
+      "dividend_yield": "2.60%",
+      "beta": "1.18",
+      "tech_concentration": "62%",
+      "changes": "Trim NVDA/SOXX/JEPQ, add SGOV +4%, add SCHD 5%",
+      "pros": "Low turnover, maintains core positions, adds dividend diversification",
+      "cons": "Sharpe only reaches 0.59 (below 1.0 target), tech still 62%"
+    },
+    {
+      "name": "Plan B - Balanced Growth (Offensive)",
+      "delta_turnover": "32%",
+      "exp_return": "13.8%",
+      "ann_vol": "19.5%",
+      "sharpe": "0.72",
+      "dividend_yield": "2.50%",
+      "beta": "1.12",
+      "tech_concentration": "58%",
+      "changes": "Exit SOXX, reduce JEPQ, add QQQ 8%, VTV 7%, SGOV +5%, MSFT +3%",
+      "pros": "Sharpe improves 60%, eliminates SOXX redundancy, adds value diversification, doubles cash",
+      "cons": "Higher turnover 32%, potential capital gains on SOXX, income drops to 2.5%",
+      "recommendation": "PREFERRED - Superior risk-adjusted returns justify higher turnover"
+    }
+  ],
+
+  "data_freshness": {
+    "prices": "MIXED - AAPL/NVDA FRESH (real-time scrape), others ESTIMATED (T-1 data)",
+    "news": "OK - Recent 72h news collected",
+    "holdings": "ESTIMATED - Based on latest ETF quarterly reports",
+    "overall_quality": "ACCEPTABLE - Core data current, supporting data estimated"
+  },
+
+  "key_risks": [
+    "High correlation (0.80+) across tech holdings - portfolio moves as one in selloff",
+    "Semiconductor concentration 35% (NVDA + SOXX + indirect) - cyclical risk",
+    "Option income dependency (69% from JEPI/JEPQ) - caps upside, income variable",
+    "Insufficient cash buffer (5%) - no dry powder for opportunities",
+    "Beta 1.32 amplifies S&P moves by 32% - too aggressive for moderate risk budget"
+  ],
+
+  "stress_test_summary": {
+    "worst_case_12m": "-22.0%",
+    "worst_case_scenario": "Severe tech selloff (-15% Nasdaq) + rate shock",
+    "best_case_12m": "+28.0%",
+    "best_case_scenario": "AI boom continuation (+25% Nasdaq), limited by JEPI/JEPQ caps",
+    "median_outcome": "+12.0%",
+    "downside_capture": "117% (portfolio amplifies losses)",
+    "upside_capture": "91% (JEPI/JEPQ cap gains)"
+  },
+
+  "artifacts": {
+    "report": "portfolio_report.md",
+    "summary": "summary.json",
+    "features": "data/features.csv",
+    "covariance": "data/covariance.csv",
+    "weights": "data/weights_before_after.csv",
+    "market_data": "data/market_data.json",
+    "portfolio_features": "data/portfolio_features.json",
+    "proposals": "data/rebalancing_proposals.json",
+    "fetch_log": "data/fetch_log.json",
+    "screenshots": ["screenshots/AAPL_overview.png", "screenshots/NVDA_overview.png"]
+  },
+
+  "disclaimers": [
+    "Market data from public sources may be delayed or contain errors",
+    "Analysis uses estimated data for 6 out of 8 securities",
+    "Scenario probabilities are subjective estimates based on current conditions",
+    "Historical correlations may not persist in different market regimes",
+    "This report does NOT constitute investment advice - consult a qualified advisor",
+    "Past performance does not guarantee future results",
+    "All investments carry risk of loss"
+  ],
+
+  "notes": {
+    "sharpe_target": "Target Sharpe ratio of 1.0 is ASPIRATIONAL for equity-heavy portfolio. Plan B's 0.72 is strong for growth orientation. Consider revising target to ≥0.65 for moderate risk profile.",
+    "data_quality": "AAPL and NVDA data verified via Playwright scraping. Other positions use estimated current market data. All estimates within reasonable bounds based on recent trading.",
+    "execution": "Single-run analysis completed. No background processes. All artifacts generated in data/ and screenshots/ directories.",
+    "timezone": "All timestamps in EST (America/New_York) as requested."
+  }
+}

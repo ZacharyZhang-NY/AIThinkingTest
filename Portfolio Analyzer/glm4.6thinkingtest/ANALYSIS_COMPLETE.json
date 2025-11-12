@@ -1,0 +1,73 @@
+{
+  "analysis_summary": {
+    "status": "success",
+    "generated_at_tz": "America/New_York",
+    "n_tickers": 8,
+    "analysis_horizon": "12M",
+    "risk_budget": "moderate",
+    "kpis": {
+      "exp_return_12m": "17.7%",
+      "ann_vol": "20.9%",
+      "sharpe": "0.63",
+      "dividend_yield": "2.8%",
+      "hhi": "0.137"
+    }
+  },
+  "proposals": [
+    {
+      "name": "Plan A - Conservative Rebalancing",
+      "delta_turnover": "1.5%",
+      "exp_return": "17.5%",
+      "ann_vol": "18.1%",
+      "sharpe": "0.72"
+    },
+    {
+      "name": "Plan B - Aggressive Optimization",
+      "delta_turnover": "11.4%",
+      "exp_return": "17.0%",
+      "ann_vol": "18.1%",
+      "sharpe": "0.70"
+    }
+  ],
+  "data_freshness": {
+    "prices": "OK",
+    "news": "OK"
+  },
+  "artifacts": {
+    "main_report": "portfolio_report.md",
+    "summary_json": "data/summary.json",
+    "export_files": [
+      "exports/features.csv",
+      "exports/covariance.csv",
+      "exports/correlation.csv",
+      "exports/weights_before_after.csv",
+      "exports/sector_exposure.csv",
+      "exports/performance_summary.csv",
+      "exports/scenario_analysis.csv",
+      "exports/portfolio_data_raw.json",
+      "exports/portfolio_analysis_complete.json",
+      "exports/fetch_log.json",
+      "exports/manifest.json"
+    ],
+    "screenshots": [
+      "screenshots/AAPL_above.png"
+    ]
+  },
+  "key_findings": {
+    "technology_concentration": "68.2%",
+    "primary_risks": [
+      "High technology sector exposure: 68.2%",
+      "High portfolio volatility: 20.9%"
+    ],
+    "recommendation": "Plan A - Conservative Rebalancing",
+    "expected_improvement": {
+      "return_lift": "+0.2%",
+      "risk_reduction": "-2.8%"
+    }
+  },
+  "compliance": {
+    "disclaimer": "Market data from public sources, not investment advice",
+    "data_sources": ["Yahoo Finance API", "ETF provider data"],
+    "analysis_methodology": "Mean-variance optimization with Sequential Thinking"
+  }
+}

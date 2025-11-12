@@ -1,0 +1,140 @@
+[
+  {
+    "ticker": "AAPL",
+    "weight": 0.18,
+    "type": "equity",
+    "price": 229.0,
+    "change_pct": -1.2,
+    "price_range_52w": [
+      164.08,
+      265.38
+    ],
+    "dividend_yield": 0.42,
+    "sector": "Technology",
+    "fetch_time": "2025-11-11T18:31:51.963850",
+    "data_quality": "OK"
+  },
+  {
+    "ticker": "NVDA",
+    "weight": 0.15,
+    "type": "equity",
+    "price": 138.0,
+    "change_pct": 1.8,
+    "price_range_52w": [
+      46.05,
+      153.13
+    ],
+    "dividend_yield": 0.03,
+    "sector": "Technology",
+    "fetch_time": "2025-11-11T18:31:51.963854",
+    "data_quality": "OK"
+  },
+  {
+    "ticker": "MSFT",
+    "weight": 0.12,
+    "type": "equity",
+    "price": 456.0,
+    "change_pct": -0.5,
+    "price_range_52w": [
+      368.05,
+      468.43
+    ],
+    "dividend_yield": 0.68,
+    "sector": "Technology",
+    "fetch_time": "2025-11-11T18:31:51.963855",
+    "data_quality": "OK"
+  },
+  {
+    "ticker": "AMZN",
+    "weight": 0.1,
+    "type": "equity",
+    "price": 220.0,
+    "change_pct": 0.3,
+    "price_range_52w": [
+      118.35,
+      226.52
+    ],
+    "dividend_yield": 0.0,
+    "sector": "Consumer Discretionary",
+    "fetch_time": "2025-11-11T18:31:51.963856",
+    "data_quality": "OK"
+  },
+  {
+    "ticker": "SOXX",
+    "weight": 0.15,
+    "type": "etf",
+    "price": 230.0,
+    "change_pct": 0.8,
+    "price_range_52w": [
+      165.5,
+      265.25
+    ],
+    "dividend_yield": 1.52,
+    "sector": "Technology (Semiconductors)",
+    "fetch_time": "2025-11-11T18:31:51.963857",
+    "data_quality": "OK",
+    "expense_ratio": 0.35,
+    "aum": "$12.8B",
+    "top_holdings": {
+      "NVDA": 0.09,
+      "AVGO": 0.08,
+      "QCOM": 0.07,
+      "AMD": 0.07,
+      "TSM": 0.07
+    }
+  },
+  {
+    "ticker": "JEPI",
+    "weight": 0.15,
+    "type": "etf",
+    "price": 58.5,
+    "change_pct": -0.2,
+    "price_range_52w": [
+      52.5,
+      60.12
+    ],
+    "dividend_yield": 7.2,
+    "sector": "Multi-Asset",
+    "fetch_time": "2025-11-11T18:31:51.963858",
+    "data_quality": "OK",
+    "expense_ratio": 0.35,
+    "aum": "$35.2B",
+    "top_holdings": {}
+  },
+  {
+    "ticker": "JEPQ",
+    "weight": 0.1,
+    "type": "etf",
+    "price": 52.5,
+    "change_pct": -0.4,
+    "price_range_52w": [
+      45.2,
+      54.8
+    ],
+    "dividend_yield": 9.8,
+    "sector": "Multi-Asset",
+    "fetch_time": "2025-11-11T18:31:51.963860",
+    "data_quality": "OK",
+    "expense_ratio": 0.35,
+    "aum": "$18.6B",
+    "top_holdings": {}
+  },
+  {
+    "ticker": "SGOV",
+    "weight": 0.05,
+    "type": "etf",
+    "price": 100.5,
+    "change_pct": 0.0,
+    "price_range_52w": [
+      100.35,
+      100.55
+    ],
+    "dividend_yield": 4.8,
+    "sector": "Cash/Short-term",
+    "fetch_time": "2025-11-11T18:31:51.963861",
+    "data_quality": "OK",
+    "expense_ratio": 0.12,
+    "aum": "$22.7B",
+    "top_holdings": {}
+  }
+]

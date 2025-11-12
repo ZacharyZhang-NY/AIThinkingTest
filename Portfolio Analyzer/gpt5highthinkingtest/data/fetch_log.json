@@ -1,0 +1,114 @@
+[
+  {
+    "ticker": "AAPL",
+    "type": "equity",
+    "source": "Yahoo Finance - Quote",
+    "url": "https://finance.yahoo.com/quote/AAPL",
+    "timestamp_tz": "America/New_York",
+    "captured_at": "2025-11-11T18:57:44-05:00",
+    "screenshot_path": "screenshots/AAPL_above.png",
+    "raw_html_path": null,
+    "status": "ok"
+  },
+  {
+    "ticker": "NVDA",
+    "type": "equity",
+    "source": "Yahoo Finance - Quote",
+    "url": "https://finance.yahoo.com/quote/NVDA",
+    "timestamp_tz": "America/New_York",
+    "captured_at": "2025-11-11T18:57:44-05:00",
+    "screenshot_path": "screenshots/NVDA_above.png",
+    "raw_html_path": null,
+    "status": "ok"
+  },
+  {
+    "ticker": "MSFT",
+    "type": "equity",
+    "source": "Yahoo Finance - Quote",
+    "url": "https://finance.yahoo.com/quote/MSFT",
+    "timestamp_tz": "America/New_York",
+    "captured_at": "2025-11-11T18:57:44-05:00",
+    "screenshot_path": "screenshots/MSFT_above.png",
+    "raw_html_path": null,
+    "status": "ok"
+  },
+  {
+    "ticker": "AMZN",
+    "type": "equity",
+    "source": "Yahoo Finance - Quote",
+    "url": "https://finance.yahoo.com/quote/AMZN",
+    "timestamp_tz": "America/New_York",
+    "captured_at": "2025-11-11T18:57:44-05:00",
+    "screenshot_path": "screenshots/AMZN_above.png",
+    "raw_html_path": null,
+    "status": "ok"
+  },
+  {
+    "ticker": "SOXX",
+    "type": "etf",
+    "source": "Yahoo Finance - Quote",
+    "url": "https://finance.yahoo.com/quote/SOXX",
+    "timestamp_tz": "America/New_York",
+    "captured_at": "2025-11-11T18:57:44-05:00",
+    "screenshot_path": "screenshots/SOXX_above.png",
+    "raw_html_path": null,
+    "status": "ok"
+  },
+  {
+    "ticker": "JEPI",
+    "type": "etf",
+    "source": "Yahoo Finance - Quote",
+    "url": "https://finance.yahoo.com/quote/JEPI",
+    "timestamp_tz": "America/New_York",
+    "captured_at": "2025-11-11T18:57:44-05:00",
+    "screenshot_path": "screenshots/JEPI_above.png",
+    "raw_html_path": null,
+    "status": "ok"
+  },
+  {
+    "ticker": "JEPQ",
+    "type": "etf",
+    "source": "Yahoo Finance - Quote",
+    "url": "https://finance.yahoo.com/quote/JEPQ",
+    "timestamp_tz": "America/New_York",
+    "captured_at": "2025-11-11T18:57:44-05:00",
+    "screenshot_path": "screenshots/JEPQ_above.png",
+    "raw_html_path": null,
+    "status": "ok"
+  },
+  {
+    "ticker": "SGOV",
+    "type": "etf",
+    "source": "Yahoo Finance - Quote",
+    "url": "https://finance.yahoo.com/quote/SGOV",
+    "timestamp_tz": "America/New_York",
+    "captured_at": "2025-11-11T18:57:44-05:00",
+    "screenshot_path": "screenshots/SGOV_above.png",
+    "raw_html_path": null,
+    "status": "ok"
+  },
+  {
+    "ticker": "DGS3MO",
+    "type": "macro",
+    "source": "FRED",
+    "url": "https://fred.stlouisfed.org/series/DGS3MO",
+    "timestamp_tz": "America/New_York",
+    "captured_at": "2025-11-11T18:57:44-05:00",
+    "screenshot_path": null,
+    "raw_html_path": null,
+    "status": "ok",
+    "value_hint": "3.92% (latest observed on page)"
+  },
+  {
+    "ticker": "^VIX",
+    "type": "macro",
+    "source": "Yahoo Finance - Quote",
+    "url": "https://finance.yahoo.com/quote/%5EVIX",
+    "timestamp_tz": "America/New_York",
+    "captured_at": "2025-11-11T18:57:44-05:00",
+    "screenshot_path": null,
+    "raw_html_path": null,
+    "status": "partial"
+  }
+]
+

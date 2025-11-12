@@ -1,0 +1,513 @@
+{
+  "timestamp": "2025-11-11T23:40:21.298285+00:00",
+  "portfolio_data": {
+    "AAPL": {
+      "ticker": "AAPL",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL",
+      "timestamp": "2025-11-11T23:40:21.489241+00:00",
+      "price": 275.25,
+      "currency": "USD",
+      "market_cap": null,
+      "volume": 45848160,
+      "52_week_high": 277.32,
+      "52_week_low": 169.21,
+      "dividend": {},
+      "exchange": "NMS",
+      "quote_type": null,
+      "status": "success",
+      "recent_news": [
+        {
+          "title": "Apple AI Strategy Shows Promising Early Results",
+          "sentiment": "positive",
+          "impact": 0.02
+        },
+        {
+          "title": "iPhone 17 Pre-orders Exceed Expectations",
+          "sentiment": "positive",
+          "impact": 0.03
+        },
+        {
+          "title": "Apple Services Revenue Continues Strong Growth",
+          "sentiment": "positive",
+          "impact": 0.01
+        }
+      ],
+      "dividend_yield": 0.0039,
+      "portfolio_weight": 0.18,
+      "asset_type": "equity"
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA",
+      "timestamp": "2025-11-11T23:40:21.653961+00:00",
+      "price": 193.16,
+      "currency": "USD",
+      "market_cap": null,
+      "volume": 175204351,
+      "52_week_high": 212.19,
+      "52_week_low": 86.62,
+      "dividend": {},
+      "exchange": "NMS",
+      "quote_type": null,
+      "status": "success",
+      "recent_news": [
+        {
+          "title": "NVIDIA Announces Next-Gen AI Chip Architecture",
+          "sentiment": "positive",
+          "impact": 0.05
+        },
+        {
+          "title": "AI Chip Demand Shows No Signs of Slowing",
+          "sentiment": "positive",
+          "impact": 0.04
+        },
+        {
+          "title": "NVIDIA Expands Data Center Partnerships",
+          "sentiment": "positive",
+          "impact": 0.02
+        }
+      ],
+      "dividend_yield": 0.0013,
+      "portfolio_weight": 0.15,
+      "asset_type": "equity"
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT",
+      "timestamp": "2025-11-11T23:40:21.839887+00:00",
+      "price": 508.68,
+      "currency": "USD",
+      "market_cap": null,
+      "volume": 16929541,
+      "52_week_high": 555.45,
+      "52_week_low": 344.79,
+      "dividend": {},
+      "exchange": "NMS",
+      "quote_type": null,
+      "status": "success",
+      "recent_news": [
+        {
+          "title": "Microsoft Cloud Growth Accelerates",
+          "sentiment": "positive",
+          "impact": 0.03
+        },
+        {
+          "title": "Azure AI Adoption Among Enterprises Increases",
+          "sentiment": "positive",
+          "impact": 0.02
+        },
+        {
+          "title": "Microsoft Office AI Features Drive Subscriptions",
+          "sentiment": "positive",
+          "impact": 0.01
+        }
+      ],
+      "dividend_yield": 0.0075,
+      "portfolio_weight": 0.12,
+      "asset_type": "equity"
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN",
+      "timestamp": "2025-11-11T23:40:22.001766+00:00",
+      "price": 249.1,
+      "currency": "USD",
+      "market_cap": null,
+      "volume": 23117997,
+      "52_week_high": 258.6,
+      "52_week_low": 161.38,
+      "dividend": {},
+      "exchange": "NMS",
+      "quote_type": null,
+      "status": "success",
+      "recent_news": [
+        {
+          "title": "Amazon AWS Market Share Expands",
+          "sentiment": "positive",
+          "impact": 0.03
+        },
+        {
+          "title": "Prime Membership Growth Continues",
+          "sentiment": "positive",
+          "impact": 0.01
+        },
+        {
+          "title": "Amazon Advertising Business Shows Strong Results",
+          "sentiment": "positive",
+          "impact": 0.02
+        }
+      ],
+      "dividend_yield": 0.0,
+      "portfolio_weight": 0.1,
+      "asset_type": "equity"
+    },
+    "SOXX": {
+      "ticker": "SOXX",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX",
+      "timestamp": "2025-11-11T23:40:22.168975+00:00",
+      "price": 295.15,
+      "currency": "USD",
+      "market_cap": null,
+      "volume": 5855675,
+      "52_week_high": 312.79,
+      "52_week_low": 148.31,
+      "dividend": {},
+      "exchange": "NGM",
+      "quote_type": null,
+      "status": "success",
+      "type": "etf",
+      "expense_ratio": 0.0046,
+      "holdings": [
+        {
+          "ticker": "NVDA",
+          "weight": 0.12,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "AMD",
+          "weight": 0.08,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "TXN",
+          "weight": 0.07,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "QCOM",
+          "weight": 0.06,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "INTC",
+          "weight": 0.05,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "MU",
+          "weight": 0.04,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "ADI",
+          "weight": 0.04,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "MRVL",
+          "weight": 0.03,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "KLAC",
+          "weight": 0.03,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "LRCX",
+          "weight": 0.03,
+          "sector": "Technology"
+        }
+      ],
+      "sectors": {
+        "Technology": 1.0
+      },
+      "recent_news": [
+        {
+          "title": "SOXX Market Update",
+          "sentiment": "neutral",
+          "impact": 0.0
+        }
+      ],
+      "dividend_yield": 0.02,
+      "portfolio_weight": 0.15,
+      "asset_type": "etf"
+    },
+    "JEPI": {
+      "ticker": "JEPI",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/JEPI",
+      "timestamp": "2025-11-11T23:40:22.339488+00:00",
+      "price": 57.11,
+      "currency": "USD",
+      "market_cap": null,
+      "volume": 4483901,
+      "52_week_high": 60.88,
+      "52_week_low": 49.94,
+      "dividend": {},
+      "exchange": "PCX",
+      "quote_type": null,
+      "status": "success",
+      "type": "etf",
+      "expense_ratio": 0.0035,
+      "holdings": [
+        {
+          "ticker": "MSFT",
+          "weight": 0.08,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "AAPL",
+          "weight": 0.06,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "JNJ",
+          "weight": 0.05,
+          "sector": "Healthcare"
+        },
+        {
+          "ticker": "PG",
+          "weight": 0.04,
+          "sector": "Consumer Staples"
+        },
+        {
+          "ticker": "VZ",
+          "weight": 0.04,
+          "sector": "Telecommunications"
+        },
+        {
+          "ticker": "KO",
+          "weight": 0.04,
+          "sector": "Consumer Staples"
+        },
+        {
+          "ticker": "PFE",
+          "weight": 0.04,
+          "sector": "Healthcare"
+        },
+        {
+          "ticker": "CSCO",
+          "weight": 0.03,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "XOM",
+          "weight": 0.03,
+          "sector": "Energy"
+        },
+        {
+          "ticker": "T",
+          "weight": 0.03,
+          "sector": "Telecommunications"
+        }
+      ],
+      "sectors": {
+        "Technology": 0.25,
+        "Healthcare": 0.2,
+        "Consumer Staples": 0.15,
+        "Telecommunications": 0.12,
+        "Energy": 0.1,
+        "Financials": 0.1,
+        "Industrials": 0.08
+      },
+      "dividend_yield": 0.078,
+      "recent_news": [
+        {
+          "title": "JEPI Market Update",
+          "sentiment": "neutral",
+          "impact": 0.0
+        }
+      ],
+      "portfolio_weight": 0.15,
+      "asset_type": "etf"
+    },
+    "JEPQ": {
+      "ticker": "JEPQ",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/JEPQ",
+      "timestamp": "2025-11-11T23:40:22.486532+00:00",
+      "price": 58.72,
+      "currency": "USD",
+      "market_cap": null,
+      "volume": 3349134,
+      "52_week_high": 59.42,
+      "52_week_low": 44.311,
+      "dividend": {},
+      "exchange": "NGM",
+      "quote_type": null,
+      "status": "success",
+      "type": "etf",
+      "expense_ratio": 0.0035,
+      "holdings": [
+        {
+          "ticker": "AAPL",
+          "weight": 0.08,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "MSFT",
+          "weight": 0.07,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "GOOGL",
+          "weight": 0.05,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "AMZN",
+          "weight": 0.04,
+          "sector": "Consumer Discretionary"
+        },
+        {
+          "ticker": "META",
+          "weight": 0.04,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "TSLA",
+          "weight": 0.03,
+          "sector": "Consumer Discretionary"
+        },
+        {
+          "ticker": "NVDA",
+          "weight": 0.03,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "NFLX",
+          "weight": 0.03,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "CRM",
+          "weight": 0.02,
+          "sector": "Technology"
+        },
+        {
+          "ticker": "ADBE",
+          "weight": 0.02,
+          "sector": "Technology"
+        }
+      ],
+      "sectors": {
+        "Technology": 0.45,
+        "Consumer Discretionary": 0.2,
+        "Communication Services": 0.15,
+        "Healthcare": 0.1,
+        "Financials": 0.06,
+        "Industrials": 0.04
+      },
+      "dividend_yield": 0.092,
+      "recent_news": [
+        {
+          "title": "JEPQ Market Update",
+          "sentiment": "neutral",
+          "impact": 0.0
+        }
+      ],
+      "portfolio_weight": 0.1,
+      "asset_type": "etf"
+    },
+    "SGOV": {
+      "ticker": "SGOV",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SGOV",
+      "timestamp": "2025-11-11T23:40:22.648761+00:00",
+      "price": 100.48,
+      "currency": "USD",
+      "market_cap": null,
+      "volume": 8274756,
+      "52_week_high": 100.74,
+      "52_week_low": 100.15,
+      "dividend": {},
+      "exchange": "PCX",
+      "quote_type": null,
+      "status": "success",
+      "type": "etf",
+      "expense_ratio": 0.0005,
+      "holdings": [],
+      "sectors": {
+        "Government": 1.0
+      },
+      "dividend_yield": 0.053,
+      "duration": 0.13,
+      "recent_news": [
+        {
+          "title": "SGOV Market Update",
+          "sentiment": "neutral",
+          "impact": 0.0
+        }
+      ],
+      "portfolio_weight": 0.05,
+      "asset_type": "etf"
+    }
+  },
+  "fetch_log": [
+    {
+      "timestamp": "2025-11-11T23:40:21.489258+00:00",
+      "ticker": "AAPL",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL",
+      "status": "success",
+      "data_size": 362
+    },
+    {
+      "timestamp": "2025-11-11T23:40:21.653978+00:00",
+      "ticker": "NVDA",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA",
+      "status": "success",
+      "data_size": 362
+    },
+    {
+      "timestamp": "2025-11-11T23:40:21.839902+00:00",
+      "ticker": "MSFT",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT",
+      "status": "success",
+      "data_size": 362
+    },
+    {
+      "timestamp": "2025-11-11T23:40:22.001786+00:00",
+      "ticker": "AMZN",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN",
+      "status": "success",
+      "data_size": 360
+    },
+    {
+      "timestamp": "2025-11-11T23:40:22.168992+00:00",
+      "ticker": "SOXX",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX",
+      "status": "success",
+      "data_size": 361
+    },
+    {
+      "timestamp": "2025-11-11T23:40:22.339503+00:00",
+      "ticker": "JEPI",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/JEPI",
+      "status": "success",
+      "data_size": 358
+    },
+    {
+      "timestamp": "2025-11-11T23:40:22.486547+00:00",
+      "ticker": "JEPQ",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/JEPQ",
+      "status": "success",
+      "data_size": 359
+    },
+    {
+      "timestamp": "2025-11-11T23:40:22.648775+00:00",
+      "ticker": "SGOV",
+      "source": "Yahoo Finance API",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SGOV",
+      "status": "success",
+      "data_size": 361
+    }
+  ],
+  "summary": {
+    "total_tickers": 8,
+    "successful_fetches": 8,
+    "failed_fetches": 0
+  }
+}

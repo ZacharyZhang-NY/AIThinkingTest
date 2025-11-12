@@ -1,0 +1,22 @@
+{
+  "portfolio": [
+    {"ticker":"AAPL","type":"equity","weight":0.18},
+    {"ticker":"NVDA","type":"equity","weight":0.15},
+    {"ticker":"MSFT","type":"equity","weight":0.12},
+    {"ticker":"AMZN","type":"equity","weight":0.10},
+    {"ticker":"SOXX","type":"etf","weight":0.15},
+    {"ticker":"JEPI","type":"etf","weight":0.15},
+    {"ticker":"JEPQ","type":"etf","weight":0.10},
+    {"ticker":"SGOV","type":"etf","weight":0.05}
+  ],
+  "base_ccy": "USD",
+  "horizon": "12M",
+  "risk_budget": "moderate",
+  "targets": {
+    "max_single_name_weight": 0.20,
+    "min_cash_like": 0.05,
+    "target_sharpe": ">=1.0"
+  },
+  "exclusions": {},
+  "generated_at": "2025-11-11T00:00:00-05:00"
+}

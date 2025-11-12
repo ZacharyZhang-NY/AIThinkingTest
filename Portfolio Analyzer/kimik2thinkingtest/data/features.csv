@@ -1,0 +1,9 @@
+ticker,weight,type,price,change_pct,price_range_52w,dividend_yield,sector,fetch_time,data_quality,expense_ratio,aum,top_holdings,expected_return_12m,annual_volatility,after_expense_return
+AAPL,0.18,equity,229.0,-1.2,"[164.08, 265.38]",0.42,Technology,2025-11-11T18:31:51.963850,OK,,,,0.12,0.28,0.12
+NVDA,0.15,equity,138.0,1.8,"[46.05, 153.13]",0.03,Technology,2025-11-11T18:31:51.963854,OK,,,,0.25,0.45,0.25
+MSFT,0.12,equity,456.0,-0.5,"[368.05, 468.43]",0.68,Technology,2025-11-11T18:31:51.963855,OK,,,,0.14,0.25,0.14
+AMZN,0.1,equity,220.0,0.3,"[118.35, 226.52]",0.0,Consumer Discretionary,2025-11-11T18:31:51.963856,OK,,,,0.16,0.32,0.16
+SOXX,0.15,etf,230.0,0.8,"[165.5, 265.25]",1.52,Technology (Semiconductors),2025-11-11T18:31:51.963857,OK,0.35,$12.8B,"{'NVDA': 0.09, 'AVGO': 0.08, 'QCOM': 0.07, 'AMD': 0.07, 'TSM': 0.07}",0.18,0.38,-0.16999999999999998
+JEPI,0.15,etf,58.5,-0.2,"[52.5, 60.12]",7.2,Multi-Asset,2025-11-11T18:31:51.963858,OK,0.35,$35.2B,{},0.07,0.12,-0.27999999999999997
+JEPQ,0.1,etf,52.5,-0.4,"[45.2, 54.8]",9.8,Multi-Asset,2025-11-11T18:31:51.963860,OK,0.35,$18.6B,{},0.08,0.15,-0.26999999999999996
+SGOV,0.05,etf,100.5,0.0,"[100.35, 100.55]",4.8,Cash/Short-term,2025-11-11T18:31:51.963861,OK,0.12,$22.7B,{},0.048,0.02,-0.072

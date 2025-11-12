@@ -1,0 +1,9 @@
+ticker,type,weight,price,market_cap_b,dividend_yield,expense_ratio,beta,sector,pe_ratio
+AAPL,equity,0.18,275.25,4265.0,0.0042,0.0000,1.25,Technology,38.5
+NVDA,equity,0.15,193.16,4703.0,0.0002,0.0000,2.27,Technology,55.19
+MSFT,equity,0.12,415.50,3088.0,0.0075,0.0000,1.15,Technology,35.8
+AMZN,equity,0.10,249.10,2590.0,0.0000,0.0000,1.35,Consumer Cyclical,42.3
+SOXX,etf,0.15,205.45,13.2,0.0088,0.0035,1.85,Semiconductors,
+JEPI,etf,0.15,58.12,38.5,0.0725,0.0035,0.78,Multi-Sector,
+JEPQ,etf,0.10,56.85,18.2,0.0892,0.0035,1.15,Technology,
+SGOV,etf,0.05,100.25,45.8,0.0420,0.0009,0.02,US Treasury,

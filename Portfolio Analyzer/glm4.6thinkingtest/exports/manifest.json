@@ -1,0 +1,68 @@
+[
+  {
+    "file_path": "exports/features.csv",
+    "file_size_bytes": 526,
+    "file_type": ".csv",
+    "description": "Portfolio holdings features and metrics"
+  },
+  {
+    "file_path": "exports/covariance.csv",
+    "file_size_bytes": 798,
+    "file_type": ".csv",
+    "description": "Asset covariance matrix"
+  },
+  {
+    "file_path": "exports/correlation.csv",
+    "file_size_bytes": 369,
+    "file_type": ".csv",
+    "description": "Asset correlation matrix"
+  },
+  {
+    "file_path": "exports/weights_before_after.csv",
+    "file_size_bytes": 808,
+    "file_type": ".csv",
+    "description": "Portfolio weight comparisons"
+  },
+  {
+    "file_path": "exports/sector_exposure.csv",
+    "file_size_bytes": 311,
+    "file_type": ".csv",
+    "description": "Sector allocation breakdown"
+  },
+  {
+    "file_path": "exports/performance_summary.csv",
+    "file_size_bytes": 599,
+    "file_type": ".csv",
+    "description": "Performance metrics comparison"
+  },
+  {
+    "file_path": "exports/scenario_analysis.csv",
+    "file_size_bytes": 430,
+    "file_type": ".csv",
+    "description": "Stress test results"
+  },
+  {
+    "file_path": "exports/portfolio_data_raw.json",
+    "file_size_bytes": 13283,
+    "file_type": ".json",
+    "description": "Raw fetched market data"
+  },
+  {
+    "file_path": "exports/portfolio_analysis_complete.json",
+    "file_size_bytes": 11524,
+    "file_type": ".json",
+    "description": "Complete analysis results"
+  },
+  {
+    "file_path": "exports/fetch_log.json",
+    "file_size_bytes": 1874,
+    "file_type": ".json",
+    "description": "Data fetching logs"
+  },
+  {
+    "file_path": "exports/summary.json",
+    "file_size_bytes": 660,
+    "file_type": ".json",
+    "description": "Executive summary"
+  }
+]

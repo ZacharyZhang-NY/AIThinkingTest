@@ -1,0 +1,32 @@
+{
+  "status": "success",
+  "generated_at_tz": "America/New_York",
+  "n_tickers": 8,
+  "kpis": {
+    "exp_return_12m": "17.7%",
+    "ann_vol": "20.9%",
+    "sharpe": "0.63",
+    "dividend_yield": "2.8%",
+    "hhi": "0.137"
+  },
+  "proposals": [
+    {
+      "name": "Plan A - Conservative Rebalancing",
+      "delta_turnover": "1.5%",
+      "exp_return": "17.5%",
+      "ann_vol": "18.1%",
+      "sharpe": "0.72"
+    },
+    {
+      "name": "Plan B - Aggressive Optimization",
+      "delta_turnover": "11.4%",
+      "exp_return": "17.0%",
+      "ann_vol": "18.1%",
+      "sharpe": "0.70"
+    }
+  ],
+  "data_freshness": {
+    "prices": "OK",
+    "news": "OK"
+  }
+}

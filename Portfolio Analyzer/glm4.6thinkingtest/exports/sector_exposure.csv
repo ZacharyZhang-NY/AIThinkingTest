@@ -1,0 +1,11 @@
+sector,weight,assessment
+Technology,0.6825,Overweight
+Consumer Discretionary,0.12000000000000001,Moderate
+Healthcare,0.04,Low
+Consumer Staples,0.0225,Low
+Telecommunications,0.018,Low
+Energy,0.015,Low
+Financials,0.020999999999999998,Low
+Industrials,0.016,Low
+Communication Services,0.015,Low
+Government,0.05,Low

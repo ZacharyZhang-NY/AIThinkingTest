@@ -1,0 +1,28 @@
+{
+  "generated_at_tz": "America/New_York",
+  "n_tickers": 8,
+  "kpis": {
+    "exp_return_12m": 0.0684,
+    "ann_vol": 0.207,
+    "sharpe": 0.141,
+    "dividend_yield": 0.0007,
+    "hhi": 0.1368
+  },
+  "proposals": [
+    {
+      "name": "Plan A - Minimal Move",
+      "delta_turnover": 0.08,
+      "exp_return": 0.0685,
+      "ann_vol": 0.1999,
+      "sharpe": 0.146
+    },
+    {
+      "name": "Plan B - Offensive",
+      "delta_turnover": 0.1,
+      "exp_return": 0.069,
+      "ann_vol": 0.2136,
+      "sharpe": 0.14
+    }
+  ],
+  "data_freshness": {"prices": "OK", "news": "PARTIAL"}
+}

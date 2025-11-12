@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "total_weight": 1.0,
+  "tickers": [
+    "AAPL",
+    "NVDA",
+    "MSFT",
+    "AMZN",
+    "SOXX",
+    "JEPI",
+    "JEPQ",
+    "SGOV"
+  ],
+  "validation_time": "2025-11-11T18:22:53.325991"
+}

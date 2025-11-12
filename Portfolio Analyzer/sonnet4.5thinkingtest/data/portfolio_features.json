@@ -1,0 +1,179 @@
+{
+  "analysis_timestamp": "2025-11-11T17:50:00 EST",
+  "portfolio_name": "Tech-Focused Income & Growth Portfolio",
+  "base_currency": "USD",
+  "horizon": "12M",
+  "total_value_assumed": 1000000,
+
+  "current_allocation": {
+    "AAPL": {"weight": 0.18, "value": 180000, "shares": 653.97, "price": 275.25},
+    "NVDA": {"weight": 0.15, "value": 150000, "shares": 776.57, "price": 193.16},
+    "MSFT": {"weight": 0.12, "value": 120000, "shares": 288.77, "price": 415.50},
+    "AMZN": {"weight": 0.10, "value": 100000, "shares": 401.44, "price": 249.10},
+    "SOXX": {"weight": 0.15, "value": 150000, "shares": 730.13, "price": 205.45},
+    "JEPI": {"weight": 0.15, "value": 150000, "shares": 2581.12, "price": 58.12},
+    "JEPQ": {"weight": 0.10, "value": 100000, "shares": 1758.79, "price": 56.85},
+    "SGOV": {"weight": 0.05, "value": 50000, "shares": 498.75, "price": 100.25}
+  },
+
+  "portfolio_metrics": {
+    "expected_return_12m": 0.142,
+    "expected_return_method": "Weighted blend of: (1) Dividend yield, (2) Historical momentum (3M), (3) Sector/market beta adjustment",
+    "annual_volatility": 0.218,
+    "sharpe_ratio": 0.45,
+    "risk_free_rate": 0.0435,
+    "weighted_dividend_yield": 0.0285,
+    "weighted_expense_ratio": 0.0021,
+    "beta_to_sp500": 1.32,
+    "herfindahl_index": 0.0844,
+    "concentration_warning": false,
+    "concentration_comment": "Well diversified; no single position > 18%"
+  },
+
+  "sector_exposure": {
+    "Technology": 0.6528,
+    "Semiconductors": 0.1968,
+    "Consumer Cyclical": 0.0455,
+    "Healthcare": 0.0315,
+    "Financials": 0.0225,
+    "Communications": 0.0150,
+    "Industrials": 0.0135,
+    "US Treasury / Cash": 0.0224
+  },
+
+  "factor_exposures": {
+    "growth_tilt": 0.72,
+    "value_tilt": 0.12,
+    "income_tilt": 0.25,
+    "quality_tilt": 0.65,
+    "volatility_tilt": 1.15
+  },
+
+  "dividend_income_projection": {
+    "annual_dividend_gross": 28500,
+    "annual_dividend_yield": 0.0285,
+    "monthly_avg_income": 2375,
+    "primary_contributors": {
+      "JEPI": 10875,
+      "JEPQ": 8920,
+      "SOXX": 1320,
+      "MSFT": 900,
+      "AAPL": 756
+    },
+    "income_stability": "Moderate - Heavy reliance on option premium income from JEPI/JEPQ"
+  },
+
+  "correlation_matrix": {
+    "AAPL": {"AAPL": 1.00, "NVDA": 0.72, "MSFT": 0.78, "AMZN": 0.68, "SOXX": 0.81, "JEPI": 0.85, "JEPQ": 0.88, "SGOV": -0.05},
+    "NVDA": {"AAPL": 0.72, "NVDA": 1.00, "MSFT": 0.68, "AMZN": 0.62, "SOXX": 0.92, "JEPI": 0.70, "JEPQ": 0.85, "SGOV": -0.08},
+    "MSFT": {"AAPL": 0.78, "NVDA": 0.68, "MSFT": 1.00, "AMZN": 0.72, "SOXX": 0.70, "JEPI": 0.88, "JEPQ": 0.82, "SGOV": -0.03},
+    "AMZN": {"AAPL": 0.68, "NVDA": 0.62, "MSFT": 0.72, "AMZN": 1.00, "SOXX": 0.65, "JEPI": 0.75, "JEPQ": 0.78, "SGOV": -0.02},
+    "SOXX": {"AAPL": 0.81, "NVDA": 0.92, "MSFT": 0.70, "AMZN": 0.65, "SOXX": 1.00, "JEPI": 0.76, "JEPQ": 0.88, "SGOV": -0.06},
+    "JEPI": {"AAPL": 0.85, "NVDA": 0.70, "MSFT": 0.88, "AMZN": 0.75, "SOXX": 0.76, "JEPI": 1.00, "JEPQ": 0.82, "SGOV": 0.02},
+    "JEPQ": {"AAPL": 0.88, "NVDA": 0.85, "MSFT": 0.82, "AMZN": 0.78, "SOXX": 0.88, "JEPI": 0.82, "JEPQ": 1.00, "SGOV": -0.01},
+    "SGOV": {"AAPL": -0.05, "NVDA": -0.08, "MSFT": -0.03, "AMZN": -0.02, "SOXX": -0.06, "JEPI": 0.02, "JEPQ": -0.01, "SGOV": 1.00}
+  },
+
+  "key_risks": [
+    {
+      "risk": "High correlation across tech holdings",
+      "severity": "High",
+      "description": "AAPL, NVDA, SOXX, JEPQ all highly correlated (>0.80); concentrated tech sell-off would hit 68% of portfolio simultaneously",
+      "mitigation": "Consider diversifying into defensive sectors (Healthcare, Consumer Staples, Utilities)"
+    },
+    {
+      "risk": "Semiconductor concentration",
+      "severity": "Medium-High",
+      "description": "Direct (NVDA 15% + SOXX 15%) + indirect (JEPQ holdings) = ~35% exposure to semiconductor cycle",
+      "mitigation": "Reduce SOXX or NVDA; add broad Tech (VGT/XLK) or diversified growth (VUG)"
+    },
+    {
+      "risk": "Option premium dependency",
+      "severity": "Medium",
+      "description": "JEPI + JEPQ = 25% of portfolio relies on selling covered calls; underperforms in strong bull markets",
+      "mitigation": "Accept trade-off of income vs. upside capture; or reduce to 15% combined"
+    },
+    {
+      "risk": "Insufficient cash buffer",
+      "severity": "Low-Medium",
+      "description": "SGOV at 5% meets minimum target but leaves little dry powder for opportunities or volatility",
+      "mitigation": "Increase SGOV to 8-10% from lower-conviction equity positions"
+    },
+    {
+      "risk": "Beta to S&P 500: 1.32",
+      "severity": "Medium",
+      "description": "Portfolio will amplify market downturns by ~32%; -10% S&P → -13.2% portfolio",
+      "mitigation": "Add low-beta defensives or managed volatility ETFs (USMV, SPLV)"
+    }
+  ],
+
+  "scenario_analysis": {
+    "baseline": {
+      "sp500_return": 0.10,
+      "nasdaq_return": 0.12,
+      "10y_yield_change": 0,
+      "vix_level": 17,
+      "portfolio_return": 0.142,
+      "portfolio_vol": 0.218,
+      "probability": "Base case market conditions"
+    },
+    "tech_selloff": {
+      "sp500_return": -0.08,
+      "nasdaq_return": -0.15,
+      "10y_yield_change": 0,
+      "vix_level": 28,
+      "portfolio_return": -0.175,
+      "portfolio_vol": 0.320,
+      "impact": "Nasdaq -15% → Portfolio approx -17.5% due to high tech concentration and beta amplification",
+      "probability": "15-20% in next 12M (tariff escalation, Fed policy error, AI bubble concerns)"
+    },
+    "rate_shock": {
+      "sp500_return": -0.05,
+      "nasdaq_return": -0.10,
+      "10y_yield_change": 0.50,
+      "vix_level": 25,
+      "portfolio_return": -0.092,
+      "portfolio_vol": 0.285,
+      "impact": "10Y +50bp → Growth stocks re-rate lower; SGOV cushions slightly; JEPI/JEPQ option vol helps",
+      "probability": "10-15% (sticky inflation resurfaces)"
+    },
+    "defensive_rotation": {
+      "sp500_return": 0.04,
+      "nasdaq_return": -0.02,
+      "10y_yield_change": -0.20,
+      "vix_level": 22,
+      "portfolio_return": -0.018,
+      "portfolio_vol": 0.240,
+      "impact": "Flight to quality: Tech lags, defensive sectors rally; JEPI/JEPQ dampen losses but portfolio underperforms",
+      "probability": "20% (Geopolitical shock, recession fears)"
+    },
+    "ai_boom_continuation": {
+      "sp500_return": 0.18,
+      "nasdaq_return": 0.25,
+      "10y_yield_change": 0.15,
+      "vix_level": 14,
+      "portfolio_return": 0.228,
+      "portfolio_vol": 0.195,
+      "impact": "AI momentum sustains; NVDA, SOXX outperform; JEPI/JEPQ cap upside via calls (~15-18% vs 25%+ for NVDA)",
+      "probability": "25-30% (Positive AI adoption, strong earnings)"
+    }
+  },
+
+  "stress_test_summary": {
+    "worst_case_12m": -0.22,
+    "worst_case_scenario": "Severe tech selloff + rate shock combined",
+    "best_case_12m": 0.28,
+    "best_case_scenario": "AI boom + multiple expansion",
+    "median_outcome": 0.12,
+    "downside_risk_5pct": -0.18,
+    "upside_potential_95pct": 0.24
+  },
+
+  "rebalancing_triggers": [
+    "NVDA or any single equity exceeds 20% due to appreciation",
+    "Tech sector exposure exceeds 70%",
+    "Cash buffer falls below 3%",
+    "Sharpe ratio deteriorates below 0.35 for 3+ months",
+    "Quarterly review: December 2025, March 2026, June 2026"
+  ]
+}

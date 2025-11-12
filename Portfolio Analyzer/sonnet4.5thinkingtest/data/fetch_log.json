@@ -1,0 +1,15 @@
+[
+  {
+    "ticker": "AAPL",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/quote/AAPL/",
+    "timestamp": "2025-11-11T22:47:37.294Z",
+    "status": "success",
+    "data": {
+      "price": "104.22",
+      "change": "+14.18",
+      "changePct": "-6.55%"
+    },
+    "screenshot": "screenshots/AAPL_overview.png"
+  }
+]
